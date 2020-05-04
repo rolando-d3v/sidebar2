@@ -1,0 +1,31 @@
+.wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.btnrol {
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  font-size: 1.6rem !important ;
+  height: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  .img {
+    display: none;
+  }
+
+  .wave {
+	display: none;
+  }
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+}
+
+.icon:hover {
+  color: #38d39f;
+}
